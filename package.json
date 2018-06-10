@@ -1,0 +1,35 @@
+{
+  "name": "request-ish",
+  "version": "1.0.0",
+  "description": "`request`-ish interface with far fewer dependencies. Tiny footprint. Uses axios under the hood. No aftertaste.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "test": "mocha build/test",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "keywords": [
+    "request",
+    "axios"
+  ],
+  "author": "Justin Beckwith",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.1",
+    "@types/nock": "^9.1.3",
+    "@types/request": "^2.47.0",
+    "gts": "^0.6.0",
+    "mocha": "^5.2.0",
+    "nock": "^9.3.2",
+    "typescript": "~2.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
