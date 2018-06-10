@@ -1,6 +1,6 @@
 {
   "name": "request-ish",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "`request`-ish interface with far fewer dependencies. Tiny footprint. Uses axios under the hood. No aftertaste.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -15,7 +15,9 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "posttest": "npm run check",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "request",
@@ -36,5 +38,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustinBeckwith/request-ish.git"
   }
 }
