@@ -9,6 +9,6 @@ $ npm install request-ish
 
 ## Usage
 
-You can mostly do what `[request](https://github.com/request/request)` do. Except for when you can't.  Not anywhere near feature complete.
+You can mostly do what [`request`](https://github.com/request/request) do. Except for when you can't.  Not anywhere near feature complete.
 
 You probably don't want to use this yet.
