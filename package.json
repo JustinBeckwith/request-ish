@@ -1,9 +1,12 @@
 {
   "name": "request-ish",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "`request`-ish interface with far fewer dependencies. Tiny footprint. Uses axios under the hood. No aftertaste.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
   "scripts": {
     "test": "mocha build/test",
     "check": "gts check",
